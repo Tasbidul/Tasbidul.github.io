@@ -1,0 +1,70 @@
+body{
+background-image:url('https://media.cntraveler.com/photos/5d8cf7d5db6acf000833e6cc/master/pass/Eiffel-Tower_GettyImages-1060266626.jpg');
+background-position: center;
+background-size: cover;
+}
+
+.column {
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  width: 50%;
+  height: 500px;
+}
+.column > img {
+  width: 100%;
+  height: 100%;
+}
+
+.font1 {
+  font-size: 30px;
+  font-family: monospace;
+  font-style: normal;
+}
+.table1 {
+background: rgba(255,255,255,0.5);
+}
+.column2 {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+.column2 > img {
+  border: 2px solid #555;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 46%;
+}
+.column3 {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+.column3 > img {
+  border: 2px solid #555;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 94%;
+}
+.column4 {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+.column4 > img {
+  border: 2px solid #555;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 70%;
+}
