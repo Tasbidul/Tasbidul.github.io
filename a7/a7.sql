@@ -44,5 +44,5 @@ or date_of_birth = (
 	WHERE gender='M'
 )
 
-select age_certificate, movie_name, movie_length from movies
-where movie_length > (select avg(movie_length) from movies);
+select age_certificate, movie_name, movie_length from movies m1
+where movie_length > (select avg(movie_length) from movies m2 where m2.age_certificate=m1.age_certificate);
