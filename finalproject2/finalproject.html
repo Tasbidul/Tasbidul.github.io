@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <p>Enter your name:</p><input class="storage" type="text"><br>
+      <button class="btn button button2">save</button>
+      <p style="text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;">Guess a numner between 1 - 100.</p>
+      <img id="img" src="https://cdn-icons-png.flaticon.com/512/3076/3076945.png" style="width: 150px; height: 150px">
+      <p id="outputtext" style="text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;">Enter a number below</p>
+      <input type="text" id="userInput"><br><br>
+      <button class="button button2" id="check" style="text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;">Check</button><button class="button button2" id="restart" style="text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;">Restart</button>
+      <p style="text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;">Previous Guesses: <span id="guesses"></span></p>
+      <p style="text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;">Guesses Remaining: <span id="remaining">10</span></p>
+      <p style="text-shadow: 0 0 3px #FFFFFF, 0 0 5px #FFFFFF;">High score: <span id="score">0</span></p>
+    </div>
+    <div id="container2">
+      <p style="text-align: center;">Leaderboard</p>
+      <hr style="border: 1px solid white; width:90%">
+      <p style="text-align: center;">Name - High Score</p>
+      <center>
+      <p><span class='name'>Name</span> - <span class="hs">0</span> attempts used.</p>
+      </center>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
